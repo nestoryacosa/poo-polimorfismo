@@ -13,7 +13,7 @@ class Rectangulo extends Figura{
     }
 
     public function perimetro(){
-        return $this->largo * $this->ancho;
+        return 2*($this->largo + $this->ancho);
     }
 
     public function area(){
